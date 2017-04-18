@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LecteurImages" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LecteurImages" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/Program Files (x86)/CodeBlocks/SDL2-2.0.3/i686-w64-mingw32/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDL2main -lSDL2" />
+					<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libmingw32.a" />
+					<Add library="C:\Program Files (x86)\CodeBlocks\SDL2-2.0.3\i686-w64-mingw32\lib\libSDL2main.a" />
+					<Add library="C:\Program Files (x86)\CodeBlocks\SDL2-2.0.3\i686-w64-mingw32\lib\libSDL2.dll.a" />
+					<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libcomdlg32.a" />
+					<Add directory="C:/Program Files (x86)/CodeBlocks/SDL2-2.0.3/i686-w64-mingw32/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LecteurImages" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL/lib" />
+		</Linker>
+		<Unit filename="fonctions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctionsBMP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctionsFiltres.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctionsFusion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctionsImage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctionsMenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctionsMiroir.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctionsNextPrev.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctionsResize.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctionsRogne.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctionsRot.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctionsSousMenus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fonctionsTGA.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="interface.bmp" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="prototypes.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
